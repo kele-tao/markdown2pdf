@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+  web-converter:
+    build: .
+    container_name: web-converter
+    ports:
+      - "8000:5000"
+    volumes:
+      - ./output:/app/output
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 60G
