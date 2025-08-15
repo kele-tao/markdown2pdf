@@ -218,9 +218,6 @@ python app.py
 - `GET /preview/<task_id>`：生成文档预览
 - `GET /download/<task_id>`：下载转换结果
 
-### 许可证
-
-[MIT License](LICENSE)
 
 ## 💖 支持作者
 
